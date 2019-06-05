@@ -1,0 +1,53 @@
+[
+  {
+    "response": {
+      "headers": {
+        "Content-Type":"text/html;charset=utf-8"
+      }
+    },
+    "file_root": "default/verify",
+    "include" : "default_verify.json"
+  },
+  {
+
+    "response": {
+      "headers": {
+        "Content-Type":"text/html;charset=utf-8"
+      },
+    "latency":{"duration":1,"unit":"second"}
+
+    },
+    "request": {
+      "forms":{"ucode":"admin","token":"123456789012348888856789012"}
+    },
+    "file_root": "api/surface/user",
+    "include" : "user.json"
+  },
+  {
+    "response": {
+      "headers": {
+        "Content-Type":"text/html;charset=utf-8"
+      },
+      "latency":{"duration":1,"unit":"second"}
+    },
+    "file_root": "api/login",
+    "include" : "login.json"
+  },
+
+  {
+    "response": {
+      "headers": {
+        "Access-Control-Allow-Origin":"*",
+        "Access-Control-Allow-Methods":"*",
+        "Access-Control-MaxAge":"3600",
+        "Access-Control-Allow-Headers":"*",
+        "Access-Control-Allow-Credentials":"true",
+        "Content-Type":"text/html;charset=utf-8"
+      }
+
+    },
+    "file_root": "default/error",
+    "include" : "default_error.json"
+  }
+]
+

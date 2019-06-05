@@ -1,0 +1,10 @@
+[{
+  "description": "查询用户的所有菜单",
+  "request": {
+    "uri": "/get/list/ok",
+    "method": "post"
+  },
+  "response": {
+    "file": "response_file/user_list_ok_file.json"
+  }
+}]

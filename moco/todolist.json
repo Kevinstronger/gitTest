@@ -1,0 +1,12 @@
+[
+  {
+    "context": "/user",
+    "file_root": "api/user",
+    "include": "user.json"
+  },
+  {
+    "context": "/todo",
+    "file_root": "api/todo",
+    "include": "todo.json"
+  }
+]

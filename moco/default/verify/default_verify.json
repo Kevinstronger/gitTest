@@ -1,0 +1,7 @@
+[ {
+  "description": "过滤get提交，code【4010】"
+,"request" : {
+    "method" : "get"
+  }
+,"response" : {"file":"default_verify_4010.json"}
+}]

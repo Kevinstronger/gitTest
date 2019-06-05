@@ -1,0 +1,30 @@
+[
+  {
+    "description": "响应内容指定为一个文件",
+    "request": {
+      "uri": "/login",
+      "method": "get",
+      "headers":{
+        "Access-Control-Allow-Origin":"*",
+        "Access-Control-Allow-Methods":"*",
+        "Access-Control-Max-Age":"3600",
+        "Access-Control-Allow-Headers":"*",
+        "Access-Control-Allow-Credentials":"true",
+        "Content-Type":"text/html;charset=utf-8"
+      },
+      "queries": {
+        "name": "小二"
+      }
+
+    },
+    "response": {
+      "file": "test/user_info.json",
+      "headers":{
+        "Content-Type":"text/html;charset=utf-8"
+      }
+
+    }
+
+  }
+
+]

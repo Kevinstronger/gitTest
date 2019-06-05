@@ -1,0 +1,22 @@
+[
+  {
+    "description": "演示get请求方式，并带有请求参数",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get",
+      "queries": {
+        "name": "zs",
+        "age": "20"
+      }
+    },
+    "response": {
+      "json": {
+        "person":
+        ["张三", "20"]
+
+      }
+    }
+
+  }
+
+]

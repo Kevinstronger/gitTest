@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test">
+    <test name="params">
+        <classes>
+            <parameter name="name" value="Kevin"></parameter>
+            <parameter name="age" value="12"></parameter>
+            <class name="com.tsing.ParameterTest"></class>
+        </classes>
+    </test>
+</suite>

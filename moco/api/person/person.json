@@ -1,0 +1,15 @@
+[
+  {
+    "request": {
+      "method": "get",
+      "uri": "/person",
+
+    },
+    "response": {
+      "json": {
+        "age": "20",
+        "city": "Beijing"
+      }
+    }
+  }
+]

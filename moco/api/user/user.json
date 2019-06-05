@@ -1,0 +1,10 @@
+[
+  {
+    "request": {
+      "uri": "/create"
+    },
+    "response": {
+      "text": "这是创建用户的请求"
+    }
+  }
+]

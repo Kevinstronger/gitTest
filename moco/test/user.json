@@ -1,0 +1,20 @@
+[
+  {
+    "description": "https请求示例",
+    "request": {
+      "uri": "/login",
+      "method": "get"
+
+    },
+    "response": {
+      "json": {
+        "user": {
+          "id": "116894",
+          "idCardValidated": "true",
+          "isAdmin": "true",
+          "rank": "11"
+        }
+      }
+    }
+  }
+]

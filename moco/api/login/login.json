@@ -1,0 +1,16 @@
+[{
+  "description":"登录成功",
+  "request":{
+    "uri":"/user/login_ok",
+    "forms":{"userName":"zhang", "userPwd":"123123"}
+  },
+  "response":{"file":"response_file/login_ok_w_file.json"}
+},
+  {
+    "description":"登录成功",
+    "request":{
+      "uri":"/user/login_ok",
+      "forms":{"userName":"admin",  "userPwd":"123123"}
+    },
+    "response":{"file":"response_file/login_ok_file.json"}
+  }]

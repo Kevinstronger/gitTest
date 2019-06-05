@@ -1,0 +1,20 @@
+[
+  {
+    "request": {
+      "uri": "/event"
+    },
+    "response": {
+      "text": "这是event响应数据"
+    },
+    "on": {
+      "complete": {
+        "async": "true",
+        "latency": 5000,
+        "post": {
+          "url": "http://www.baidu.com",
+          "content": "content"
+        }
+      }
+    }
+  }
+]

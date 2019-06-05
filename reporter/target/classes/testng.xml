@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test">
+    <test name="reporter">
+        <classes>
+            <class name="com.tsing.ReporterTest">
+                <module name="test1"/>
+                <module name="test2"/>
+                <module name="test3"/>
+                <module name="test4"/>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <!--
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"></listener>
+        -->
+        <listener class-name="com.tsing.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

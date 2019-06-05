@@ -1,0 +1,21 @@
+[
+  {
+    "description": "带cookies的get请求",
+    "request": {
+      "uri": "/get/with/cookies",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "user": {
+          "name": "kevin",
+          "department": "development"
+        }
+      }
+    }
+  }
+]
